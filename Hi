@@ -369,6 +369,16 @@ onPress={()=> handleSubmit()}
 }}
 </Formik>
 </View>
+---
+Run the app in our mobile: 
+1.	Go to your mobiles settings
+2.	Go to the about phone
+3.	In about phone go to software Information
+4.	 Go to build number
+5.	Enter the pin
+6.	Go to developer options and make it on
+7.	Go to usb debugging ( allow usb debugging and then connect the mobile to computer with usb cable and in your project run the project and is also runned in your mobile
+---run app---
 
 Build APK: (Android Package Kit File format) 
 Refernce : https://reactnative.dev/docs/signed-apk-android
@@ -412,3 +422,4 @@ android {
 12.  go to your project and open the terminal change the directory to (/android) and command the code below.
 13. ./gradlew assembleRelease
 14. go to your project’s android/app/build/outputs/bundle/release/app-release.apk file . copy the file and paste it to your mobile download section and install it .
+---Build APK---
